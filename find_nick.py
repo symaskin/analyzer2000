@@ -1,5 +1,6 @@
 #!/usr/bin/python -tt
 # open logfile, find nick and print urls.
+# test test
 
 import re
 import sys
