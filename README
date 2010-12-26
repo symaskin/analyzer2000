@@ -1,4 +1,7 @@
-My logfile analyzer, not much yet.
+My logfile analyzer
+
+NOTE: This is not meant to be (not now atleast) a serious project. It is mainly for me learning
+Python and GIT. Expect the worst.
 
 future plans:
 
@@ -6,3 +9,5 @@ future plans:
 * search function
 * build some sort of gallery
 * statistics
+
+EOF

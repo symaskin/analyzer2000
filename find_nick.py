@@ -11,6 +11,9 @@ logfile = 'utfil'
 resultDict = { 'tugg': '' }
 urllist = [ ]
 
+def add2dict(**stuff):
+    print stuff
+
 
 def searchLogfile(nick):
     counter = 0
@@ -22,6 +25,7 @@ def searchLogfile(nick):
         if nick in nickColumn:
             url = line.split()[2]
             urllist.append(url)
+            #            add2dict(nick=url)
             counter += 1
     file.close()
 #    print len(resultDict.values())
