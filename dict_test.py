@@ -8,15 +8,6 @@ program_name = argv[0]
 nicks_in_file = []
 nicks_and_url = {}
 i = []
-def emptyFunction(f):
-#    for line in file_load('utfil'):
-        # only true on first value in column
-        #        if find_nick('tugg', line.split()[1]):
-            #            aHref(line.split()[2], line.split()[1])
-            #        else:
-                #            print 'nej'
-                #            break
-    pass
 
 def file_load(filename):
     return open(filename, 'rU')
